@@ -1,21 +1,17 @@
-print("Hello World")
+#1. Create a greeting for your program.
+print ("Welcome to the Band Name Generator")
 
-#To print multiple lines of similar text
-print("Hello world!\nHello world!\nHello world!")
+#2. Ask the user for the city that they grew up in.
+city = input("what city did you grow up in?\n")
 
-#String Concatenation
-print("Hello" + " " + "Angela")
+#3. Ask the user for the name of a pet.
+pet = input("what is the name of your pet?\n")
 
-#Input function
-input("What is your name")
-#input () will get user input in console 
-# then print () will print the word "Hello" and the user input
-print("Hello " +input("What is your name?"))
-# To produce multiplication of inputted numbers
-num1 = int(input())
-num2 = int(input())
-print(num1 * num2)
-# To produce length of a string
-name = input ()
-print(len(name))
-print(len(input()))
+
+#4. Combine the name of their city and pet and show them their band name.
+print("your band name could be " + city + " " + pet)
+      
+#5. Make sure the input cursor shows on a new line:
+# \n was added to the end of line #2 and #3
+
+# Solution: https://replit.com/@appbrewery/band-name-generator-end
